@@ -4,39 +4,45 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-.leader-board-columns {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 40px;
-}
-.scores-heading{
-    font-size: 24px;
-    font-weight: 600;  
-}
-.our-scores {
-    width: 600px;
-}
-table {
-    margin-top: 26px;
-    border: 3px solid black;
-    width: 50%;
-}
-tr:nth-child(even) {
-    background-color: #dddddd;
-  }
 
-  .add-scores {
-    margin-top: 16px;
-  }
-  
-  input {
-    margin: 10px 0;
-    padding: 5px;
-    border: 3px solid black;
-    width: 200px;
-  }
-  button {
-    background-color: #ffffff;
-    box-shadow: 3px 4px black;
-    padding: 3px;
-  }
+.leader-board-columns {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.scores-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.our-scores {
+  width: 600px;
+}
+
+table {
+  margin-top: 26px;
+  border: 3px solid black;
+  width: 50%;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.add-scores {
+  margin-top: 16px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 5px;
+  border: 3px solid black;
+  width: 200px;
+}
+
+button {
+  background-color: #fff;
+  box-shadow: 3px 4px black;
+  padding: 3px;
+}
