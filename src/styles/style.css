@@ -1,3 +1,48 @@
-body {
-    background-color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,500&family=Poppins:ital,wght@0,200;0,400;0,600;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+* {
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.leader-board-columns {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.scores-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.our-scores {
+  width: 600px;
+}
+
+table {
+  margin-top: 26px;
+  border: 3px solid black;
+  width: 50%;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.add-scores {
+  margin-top: 16px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 5px;
+  border: 3px solid black;
+  width: 200px;
+}
+
+button {
+  background-color: #fff;
+  box-shadow: 3px 4px black;
+  padding: 3px;
 }
