@@ -11,28 +11,30 @@
         <div class="leader-board-columns">
             <div class="leaderboard-col">
                 <div class="col-heading">
-                    <h2>Recent Scores</h2><span><button>Refresh</button></span>
+               <span class="scores-heading">Recent Scores</span> <button type="submit">Refresh</button>
                 </div>
                 <div class="our-scores">
-                    <table>
-                        <table>
-                            <tr>
-                              <td>Sharon Kessio: 500</td>
-                            </tr>
-                            <tr>
-                               <td>Sharon Kessio: 700</td>
-                            </tr>
-                            <tr>
-                                <td>Kessio: 300</td>
-                             </tr>
-                             <tr>
-                                <td>Linda: 500</td>
-                             </tr>
-                          </table>
+                    <table class="table-scores" id="table-data">
+                        <tbody class="table-body"></tbody>
                     </table>
                 </div>
             </div>
-            <div class="leaderboard-col"></div>
+            <div class="leaderboard-col">
+                <div class="col-heading">
+                    <span class="scores-heading">Add Your Scores</span>
+                </div>
+                <div class="add-scores">
+                    <form>
+                        <div class="input-control">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="score" placeholder="Your Score">
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </body>
