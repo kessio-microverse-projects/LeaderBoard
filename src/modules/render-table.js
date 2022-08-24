@@ -1,4 +1,6 @@
 const renderTable = () => {
+  const gameId = 'G2FzmBjwJK9W4frxM9oY';
+  
   const tableData = [
     {
       name: 'Name:',
