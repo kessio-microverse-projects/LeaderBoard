@@ -1,7 +1,5 @@
 
 const saveScores = async (e) => {
-   e.preventDefault();
-   const output = document.getElementById('outpudata')
     const user = document.getElementById('name').value;
     const score = document.getElementById('scores').value;
     const formData = {user: user, score: score}
@@ -16,7 +14,6 @@ const saveScores = async (e) => {
     })
    
     const res = await response.json();
-   
     
 }
 export default saveScores;
