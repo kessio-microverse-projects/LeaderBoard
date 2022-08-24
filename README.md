@@ -5,10 +5,19 @@
 - Learn how to use proper ES6 syntax.
 - Use ES6 modules to write modular JavaScript.
 - Use webpack to bundle JavaScript.
+- Send and receive data from an API.
+- Use API documentation.
+- Understand and use JSON.
 - Use linters
 
 ### Project requirements for Add and Remove TO do List
 - Write plain HTML markup with minimum styling.
+- Create a new game with the name of your choice by using the API.
+- Make sure that you saved the ID of your game that will be returned by API.
+- Implement the "Refresh" button that will get all scores for a game created by you from the API (receiving data from the API and parsing the JSON).
+- Implement the form "Submit" button that will save a score for a game created by you (sending data to the API).
+- Use arrow functions instead of the function keyword.
+- Use async and await JavaScript features to consume the API.
 
 ### All the above project requirements has been implemented on this project
 

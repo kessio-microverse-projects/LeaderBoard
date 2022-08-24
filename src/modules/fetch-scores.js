@@ -13,4 +13,4 @@ const  fetchScores = async () => {
                             </tr> `;
           });
     }
-export default fetchScores;
+export default fetchScores; 
