@@ -55,4 +55,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-N/A
+This project is [MIT](MIT.md) licensed.
