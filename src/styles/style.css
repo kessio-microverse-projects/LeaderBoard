@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
 body {
   background-color: rgb(140, 31, 242);
 }
@@ -20,12 +21,13 @@ body {
   font-weight: 600;
   color: #fff;
 }
+
 .title {
-  color:#fff;
+  color: #fff;
 }
+
 .our-scores {
   width: 600px;
-  
 }
 
 table {
