@@ -5,15 +5,25 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-color: rgb(140, 31, 242);
+}
+
 .leader-board-columns {
   display: flex;
   justify-content: flex-start;
   margin-left: 40px;
+  color: #fff;
 }
 
 .scores-heading {
   font-size: 24px;
   font-weight: 600;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
 }
 
 .our-scores {
@@ -22,12 +32,9 @@
 
 table {
   margin-top: 26px;
-  border: 3px solid black;
-  width: 50%;
-}
-
-tr:nth-child(even) {
-  background-color: #ddd;
+  border: 3px solid rgb(247, 245, 245);
+  width: 60%;
+  overflow-y: scroll;
 }
 
 .add-scores {
@@ -37,12 +44,12 @@ tr:nth-child(even) {
 input {
   margin: 10px 0;
   padding: 5px;
-  border: 3px solid black;
+  border: 3px solid rgb(249, 247, 247);
   width: 200px;
 }
 
 button {
   background-color: #fff;
-  box-shadow: 3px 4px black;
+  box-shadow: 3px 4px rgb(250, 249, 249);
   padding: 3px;
 }

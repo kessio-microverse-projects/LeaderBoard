@@ -10,7 +10,7 @@
 - Understand and use JSON.
 - Use linters
 
-### Project requirements for Add and Remove TO do List
+### Project requirements
 - Write plain HTML markup with minimum styling.
 - Create a new game with the name of your choice by using the API.
 - Make sure that you saved the ID of your game that will be returned by API.
@@ -33,6 +33,11 @@ To get a local copy up and running follow these simple example steps.
 ```
 git clone https://github.com/kessio-microverse-projects/LeaderBoard.git
 ```
+# Install
+
+- npm install
+- npm run build
+- npm start
 
 ## Authors
 
@@ -56,3 +61,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](MIT.md) licensed.
+
