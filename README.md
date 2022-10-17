@@ -20,6 +20,7 @@
 - Use async and await JavaScript features to consume the API.
 
 ### All the above project requirements has been implemented on this project
+## [Live Demo](https://kessio-microverse-projects.github.io/LeaderBoard/)
 
 ## Built With
 
